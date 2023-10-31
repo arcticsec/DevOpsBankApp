@@ -11,7 +11,7 @@ on:
 
 env:
   # Change this to your Docker Hub repository name, if different
-  IMAGE_NAME: ${{ github.repository }}
+  IMAGE_NAME: ${{ https://hub.docker.com/r/arcticsec/arcticbank }}
 
 jobs:
   build:
